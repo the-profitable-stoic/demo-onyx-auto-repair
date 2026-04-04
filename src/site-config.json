@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Onyx Auto Repair",
+    "phone": "555-aut-r93",
+    "category": "auto-repair",
+    "city": "Memphis",
+    "state": "TN"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-repair-dark-premium",
+      "categoryGroup": "auto-repair",
+      "name": "Dark Premium",
+      "recipeFile": "auto-repair/dark-premium.astro",
+      "colors": {
+        "primary": "#F87171",
+        "primaryDark": "#c65a5a",
+        "primaryLight": "#fcc6c6",
+        "secondary": "#2A2A2A",
+        "accent": "#f98686",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-repair/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Honest auto repair in Memphis",
+      "heroSubline": "We fix cars right the first time. No upsells, just reliable service for Memphis drivers.",
+      "aboutTitle": "Trusted mechanics since 2012",
+      "aboutText": [
+        "Onyx Auto Repair started when founder Marcus Johnson saw too many Memphis drivers getting overcharged for basic repairs. What began as a two-bay shop on Summer Avenue has grown into a full-service facility with 20 technicians.",
+        "We believe in diagnosing problems accurately, explaining options clearly, and never recommending unnecessary work. Our technicians stay current with training on all major makes and models.",
+        "When we're not under the hood, you'll find us sponsoring youth programs at the Memphis Athletic League and supporting local food drives. This city's been good to us - we aim to return the favor."
+      ],
+      "valueProps": [
+        {
+          "title": "Same-day diagnostics",
+          "description": "Most vehicles get a full diagnosis within 2 hours so you know exactly what's needed."
+        },
+        {
+          "title": "Memphis-tested parts",
+          "description": "We use components proven to withstand our pothole-filled roads and humid summers."
+        },
+        {
+          "title": "Loaner cars available",
+          "description": "Don't miss work while we repair your vehicle - ask about our courtesy loaner program."
+        },
+        {
+          "title": "Upfront pricing",
+          "description": "You'll approve every repair with a written estimate before we turn a wrench."
+        }
+      ],
+      "ctaHeadline": "Schedule your repair today",
+      "ctaSubline": "Call or book online for same-week appointments at our Memphis shop."
+    },
+    "services": [
+      {
+        "slug": "brake-repair",
+        "name": "Brake Repair",
+        "shortDescription": "Complete brake inspections and repairs for Memphis drivers",
+        "description": "Memphis' stop-and-go traffic on I-240 and downtown streets wears brake components faster than most cities. We perform thorough brake inspections measuring pad thickness, rotor condition, and fluid quality.\n\nCommon repairs include replacing warped rotors (common after Tennessee's rainy seasons), addressing stuck calipers from road salt residue, and fixing ABS sensor issues. We only install ceramic or semi-metallic pads that handle our summer heat without fading.\n\nUnlike quick-lube shops, we measure brake fluid boiling points and flush contaminated systems. All brake work includes a 12-mile test drive through Memphis' hilly neighborhoods to verify proper performance.",
+        "process": [
+          "Step 1: Road test to assess pedal feel and noise",
+          "Step 2: Measure all components with digital calipers",
+          "Step 3: Present repair options with price comparisons",
+          "Step 4: Post-repair test drive through downtown traffic"
+        ],
+        "benefits": [
+          "Quieter stops on Memphis' brick-paved streets",
+          "Faster response in sudden Midtown traffic",
+          "Longer component life in humid conditions",
+          "ABS systems that work when roads ice over"
+        ],
+        "faq": [
+          {
+            "question": "How often should Memphis drivers replace brake fluid?",
+            "answer": "We recommend every 30,000 miles. Humidity causes brake fluid to absorb moisture faster here, lowering its boiling point."
+          },
+          {
+            "question": "Why do my brakes squeak after crossing the Mississippi River?",
+            "answer": "The bridge's metal grating can temporarily deposit microscopic debris on rotors. We can resurface them if noise persists."
+          }
+        ]
+      },
+      {
+        "slug": "engine-diagnostics",
+        "name": "Engine Diagnostics",
+        "shortDescription": "Advanced troubleshooting for check engine lights",
+        "description": "Modern vehicles average 30+ computer modules that communicate differently in Memphis' temperature swings. Our Snap-On scan tools read manufacturer-specific codes that generic code readers miss.\n\nWe start by replicating your concern - whether it's rough idling at Poplar Avenue stoplights or hesitation climbing the Hernando DeSoto Bridge. Live data monitoring helps identify intermittent issues that disappear when the car reaches the shop.\n\nCommon Memphis-specific fixes include cleaning throttle bodies gummed up from short trips, replacing oxygen sensors corroded by road salt, and reprogramming modules affected by voltage spikes from our aging power grid. We provide printed diagnostic reports you can share with your insurance company.",
+        "process": [
+          "Step 1: Code retrieval with OEM-level scanners",
+          "Step 2: Live data recording during test drive",
+          "Step 3: Voltage and resistance testing at connectors",
+          "Step 4: Verification repair solved the root cause"
+        ],
+        "benefits": [
+          "Accurate diagnosis the first time",
+          "Saves money on unnecessary parts",
+          "Prevents breakdowns in summer heat",
+          "Maintains fuel efficiency on long drives"
+        ],
+        "faq": [
+          {
+            "question": "Why does my check engine light come on after heavy rain?",
+            "answer": "Water can temporarily affect sensor connections. If it stays on, we check for leaks in the air intake system."
+          },
+          {
+            "question": "How quickly should I address an emissions-related code?",
+            "answer": "Within 2 weeks to pass Shelby County emissions testing. We provide free retests after repairs."
+          }
+        ]
+      },
+      {
+        "slug": "ac-repair",
+        "name": "AC Repair",
+        "shortDescription": "Cooling system repairs for Memphis summers",
+        "description": "With heat indexes regularly exceeding 100°F, a working AC system isn't optional in Memphis. We pressure test systems to find leaks that worsen in our humidity, often at Schrader valves or condenser fins damaged by highway debris.\n\nOur EPA-certified technicians recover refrigerant properly rather than venting it illegally. We flush contaminated systems that develop sludge from infrequent use during mild winters. For older vehicles, we offer upgrades to more efficient R134a systems.\n\nEvery AC service includes cleaning condenser coils clogged with cottonwood pollen and testing compressor clutch operation. We measure vent temperatures to ensure your system cools properly even when idling in Graceland traffic.",
+        "process": [
+          "Step 1: Performance test measuring vent temperatures",
+          "Step 2: Leak detection with UV dye or nitrogen",
+          "Step 3: Evacuation and recharge by weight",
+          "Step 4: Airflow measurement at all vents"
+        ],
+        "benefits": [
+          "Faster cooldowns after parking in the sun",
+          "Lower humidity inside the cabin",
+          "Reduced engine strain in traffic",
+          "Prevents compressor failures"
+        ],
+        "faq": [
+          {
+            "question": "Why does my AC work poorly at red lights?",
+            "answer": "Likely a failing cooling fan. We test fan operation separately from the AC system."
+          },
+          {
+            "question": "How often should Memphis drivers recharge their AC?",
+            "answer": "Never - a properly sealed system maintains charge for years. Needing annual recharging indicates a leak."
+          }
+        ]
+      },
+      {
+        "slug": "transmission-service",
+        "name": "Transmission Service",
+        "shortDescription": "Fluid services and repairs for automatic transmissions",
+        "description": "Memphis drivers average more gear changes per mile than most cities due to our short blocks and frequent traffic lights. We perform transmission services tailored to your driving patterns - whether you're commuting on I-40 daily or making deliveries downtown.\n\nOur fluid exchanges use manufacturer-approved fluids rather than generic substitutes. For vehicles frequently crossing the Mississippi River bridges, we check for water contamination that accelerates wear. Harsh shifts common in stop-and-go traffic often indicate solenoid issues we can repair without full rebuilds.\n\nEvery service includes scanning for stored codes, checking fluid condition with a spectrometer, and test driving through our hilly neighborhoods to verify smooth operation. We'll advise if your transmission shows signs needing more extensive work.",
+        "process": [
+          "Step 1: Scan for shift adaptation codes",
+          "Step 2: Fluid analysis for metal particles",
+          "Step 3: Pan removal to inspect magnets",
+          "Step 4: Road test through varying grades"
+        ],
+        "benefits": [
+          "Smoother shifts in Memphis traffic",
+          "Extended transmission lifespan",
+          "Improved fuel economy",
+          "Early detection of major issues"
+        ],
+        "faq": [
+          {
+            "question": "Why does my transmission shift hard when it's cold?",
+            "answer": "Thickened fluid is common below 40°F. We check if symptoms persist after warmup."
+          },
+          {
+            "question": "How often should I service my CVT transmission?",
+            "answer": "Every 60,000 miles for most models. The humid climate breaks down CVT fluid faster here."
+          }
+        ]
+      },
+      {
+        "slug": "suspension-repair",
+        "name": "Suspension Repair",
+        "shortDescription": "Shocks, struts, and alignment services",
+        "description": "Memphis roads rank among Tennessee's worst for potholes and uneven pavement. We perform suspension inspections measuring play in ball joints, control arm bushings, and tie rod ends - all common failure points from our rough streets.\n\nOur alignment specialists use Hunter's latest digital systems to account for Memphis' crowned roads and brick-paved surfaces. We recommend firmer shock absorbers for drivers regularly navigating I-240's expansion joints. For trucks hauling loads across the river, we check leaf spring condition and U-bolt torque.\n\nEvery suspension repair includes measuring ride height before and after work, plus a test drive down known rough roads like Lamar Avenue to verify improvements. We'll show you worn parts so you understand exactly what needed replacement.",
+        "process": [
+          "Step 1: Bounce test measuring damping",
+          "Step 2: Measurement of all suspension angles",
+          "Step 3: Road force measurement on tires",
+          "Step 4: Post-repair alignment verification"
+        ],
+        "benefits": [
+          "Fewer rattles on rough streets",
+          "Better handling in wet conditions",
+          "More even tire wear",
+          "Improved towing stability"
+        ],
+        "faq": [
+          {
+            "question": "Why does my car pull after crossing train tracks?",
+            "answer": "Impact may have knocked alignment out. We check for bent components after such events."
+          },
+          {
+            "question": "How often should Memphis drivers replace shocks?",
+            "answer": "Every 50,000 miles typically. Heavy urban wear accelerates need for replacement."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Brake repair",
+        "text": "The team at Onyx saved me from replacing perfectly good rotors when another shop said I needed full brake service. They showed me the measurements and only replaced what was necessary. My Expedition stops smoothly now even coming down the I-55 bridge.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Latoya M.",
+        "rating": 5,
+        "service": "AC repair",
+        "text": "After my AC quit during last July's heat wave, Onyx had me back on the road same day. Found a leaking condenser that three other shops missed. Their loaner car kept my kids cool while mine was being fixed. Fair price and no pressure to upsell.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Robert K.",
+        "rating": 5,
+        "service": "Transmission service",
+        "text": "My Silverado was slipping gears pulling trailers across the river. Onyx diagnosed a bad solenoid pack instead of pushing for a full rebuild like others suggested. Six months later it's still shifting perfectly, even hauling lumber to job sites daily.",
+        "date": "2025-01-12"
+      },
+      {
+        "name": "Denise W.",
+        "rating": 5,
+        "service": "Engine diagnostics",
+        "text": "The check engine light in my Prius kept coming on after heavy rain. Onyx traced it to a cracked wiring harness rubbing against the firewall - something the dealership couldn't find in three visits. Detailed explanation and fair labor rate.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Marcus B.",
+        "rating": 5,
+        "service": "Suspension repair",
+        "text": "Fixed my Cadillac's wandering steering after hitting a pothole on Union Ave. They aligned it perfectly and showed me the bent tie rod. Car drives straighter now than when I bought it. Honest mechanics are hard to find in Memphis.",
+        "date": "2024-10-22"
+      },
+      {
+        "name": "Sarah J.",
+        "rating": 5,
+        "service": "Brake repair",
+        "text": "I appreciate how Onyx explained why Memphis humidity causes brake fluid to degrade faster. Full flush made my pedal feel firmer immediately. They even adjusted my parking brake for free while it was in for service. Will bring all our family cars here.",
+        "date": "2024-09-17"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Memphis Auto Repair | Honest Mechanics | Onyx Auto",
+        "description": "Trusted Memphis mechanics offering fair pricing and accurate diagnostics. Same-day appointments available for brake, AC, and transmission repairs."
+      },
+      "about": {
+        "title": "About Onyx Auto Repair | Memphis TN Mechanics",
+        "description": "Learn about our Memphis auto repair shop's history, values, and commitment to honest service since 2012."
+      },
+      "services": {
+        "title": "Auto Repair Services in Memphis | Onyx Auto",
+        "description": "Complete brake, engine, AC, and transmission services tailored for Memphis driving conditions."
+      },
+      "contact": {
+        "title": "Contact Onyx Auto Repair | Memphis TN",
+        "description": "Schedule your auto repair in Memphis. Call or visit our shop on Summer Avenue for honest diagnostics."
+      },
+      "reviews": {
+        "title": "Onyx Auto Repair Reviews | Memphis TN",
+        "description": "See what Memphis drivers say about their experiences with our honest auto repair services."
+      },
+      "service-areas": {
+        "title": "Memphis Auto Repair Service Areas | Onyx Auto",
+        "description": "We serve Memphis and surrounding communities with reliable brake, engine, and transmission repairs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Memphis",
+        "slug": "memphis-tn",
+        "state": "TN",
+        "content": "Onyx Auto Repair proudly serves the Memphis community with top-tier auto repair services. Whether you need routine maintenance, brake repairs, or engine diagnostics, our skilled technicians are here to keep your vehicle running smoothly. We understand the importance of reliable transportation in a bustling city like Memphis, and we're committed to providing fast, affordable, and honest service.\n\nLocated in the heart of Shelby County, our shop is easily accessible to all Memphis residents. We specialize in both domestic and foreign vehicles, offering everything from oil changes to complex electrical repairs. Our team stays up-to-date with the latest automotive technologies to ensure your car receives the best care possible.",
+        "localContext": "Memphis is known for its vibrant music scene, Mississippi River access, and being home to FedEx's global hub.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Germantown",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Bartlett",
+        "slug": "bartlett-tn",
+        "state": "TN",
+        "content": "Onyx Auto Repair is your trusted auto service provider in Bartlett, TN. We offer comprehensive automotive care for residents throughout Shelby County. Our Bartlett customers appreciate our convenient location and commitment to transparent pricing for all services, from tire rotations to transmission repairs.\n\nAs a family-friendly suburb of Memphis, Bartlett sees plenty of commuter traffic. We specialize in maintaining vehicles that endure daily drives to downtown Memphis and back. Our preventative maintenance programs help Bartlett drivers avoid costly breakdowns and extend their vehicle's lifespan.",
+        "localContext": "Bartlett is known for its excellent school system and suburban charm while being close to Memphis amenities.",
+        "nearbyAreas": [
+          "Memphis",
+          "Lakeland",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Germantown",
+        "slug": "germantown-tn",
+        "state": "TN",
+        "content": "Germantown residents trust Onyx Auto Repair for their automotive needs. We provide premium service for luxury vehicles and everyday drivers alike in this upscale Memphis suburb. Our technicians are specially trained to work with European imports and high-performance vehicles commonly found in Germantown.\n\nFrom oil changes to advanced diagnostics, we use state-of-the-art equipment to service your vehicle properly. We understand Germantown drivers expect exceptional service, which is why we offer complimentary vehicle inspections with every visit and a comfortable waiting area with premium amenities.",
+        "localContext": "Germantown is renowned for its beautiful homes, top-rated schools, and affluent community.",
+        "nearbyAreas": [
+          "Collierville",
+          "Memphis",
+          "Cordova"
+        ]
+      },
+      {
+        "city": "Collierville",
+        "slug": "collierville-tn",
+        "state": "TN",
+        "content": "Onyx Auto Repair serves Collierville with dependable auto repair services tailored to this growing community. Whether you're a longtime resident or new to this fast-growing suburb, our team provides personalized attention for all your automotive needs. We specialize in both routine maintenance and major repairs for all makes and models.\n\nCollierville's mix of historic charm and modern development means we see everything from classic cars to the latest models in our shop. Our services help keep Collierville families safe on the road with thorough inspections and quality repairs backed by our satisfaction guarantee.",
+        "localContext": "Collierville features a charming town square and is one of Tennessee's fastest-growing communities.",
+        "nearbyAreas": [
+          "Germantown",
+          "Olive Branch",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Cordova",
+        "slug": "cordova-tn",
+        "state": "TN",
+        "content": "Cordova drivers rely on Onyx Auto Repair for honest, professional auto service. As a key Memphis suburb with busy commuter routes, we understand the importance of keeping Cordova vehicles in peak condition. Our shop offers everything from quick oil changes to complete engine overhauls with the same attention to detail.\n\nWe're conveniently located to serve both residential and commercial customers throughout Cordova. Our team takes pride in explaining all recommended services clearly and never pushing unnecessary repairs, earning us trust throughout the community.",
+        "localContext": "Cordova is a diverse suburb with excellent shopping and dining options along Germantown Parkway.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Memphis",
+          "Germantown"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tn",
+        "state": "TN",
+        "content": "Onyx Auto Repair provides top-quality auto services to Arlington residents. As this community continues to grow, we're proud to offer reliable repairs and maintenance to keep local vehicles running safely. Our technicians are experts in both modern computerized systems and traditional mechanical repairs.\n\nWe understand Arlington drivers need dependable transportation for work commutes and family activities. That's why we offer flexible scheduling and efficient service to minimize your downtime. From brake inspections to air conditioning repairs, we handle all your automotive needs with professionalism and care.",
+        "localContext": "Arlington offers a small-town feel with easy access to Memphis and growing commercial development.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Lakeland",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Lakeland",
+        "slug": "lakeland-tn",
+        "state": "TN",
+        "content": "Lakeland vehicle owners choose Onyx Auto Repair for dependable service in a friendly atmosphere. We specialize in maintaining the SUVs, trucks, and family vehicles common in this lakeside community. Our preventative maintenance programs help Lakeland drivers avoid unexpected repairs and costly breakdowns.\n\nWhether you need seasonal service before summer road trips or winter preparation for cooler temperatures, our team has you covered. We take the time to explain all services and provide honest recommendations to keep your vehicle performing its best on Lakeland's scenic roads.",
+        "localContext": "Lakeland is known for its beautiful lakes, outdoor recreation, and family-oriented community.",
+        "nearbyAreas": [
+          "Arlington",
+          "Bartlett",
+          "Millington"
+        ]
+      },
+      {
+        "city": "Millington",
+        "slug": "millington-tn",
+        "state": "TN",
+        "content": "Onyx Auto Repair is proud to serve the Millington community with reliable auto repair services. As home to Naval Support Activity Mid-South, we're experienced in maintaining the diverse range of vehicles driven by military personnel and local residents alike. Our shop offers comprehensive services from basic maintenance to complex diagnostics.\n\nWe understand the importance of budget-friendly repairs for Millington families and offer competitive pricing without compromising quality. Our team stays current with the latest automotive technologies to properly service both older models and newer vehicles with advanced systems.",
+        "localContext": "Millington has strong military ties and is home to the Navy's personnel command center.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Atoka",
+          "Covington"
+        ]
+      },
+      {
+        "city": "Olive Branch",
+        "slug": "olive-branch-ms",
+        "state": "MS",
+        "content": "Onyx Auto Repair extends its quality service to Olive Branch, MS, just across the state line. We help local residents maintain their vehicles for safe commuting to Memphis and throughout DeSoto County. Our shop provides honest assessments and reliable repairs for all makes and models.\n\nAs Olive Branch continues to grow, we're committed to meeting the automotive needs of this thriving community. From brake services to electrical system repairs, our skilled technicians use premium parts and the latest diagnostic equipment to ensure your vehicle receives proper care.",
+        "localContext": "Olive Branch offers a high quality of life with easy access to Memphis while maintaining its own identity.",
+        "nearbyAreas": [
+          "Southaven",
+          "Collierville",
+          "Hernando"
+        ]
+      },
+      {
+        "city": "Southaven",
+        "slug": "southaven-ms",
+        "state": "MS",
+        "content": "Southaven drivers trust Onyx Auto Repair for professional automotive service just minutes from Memphis. We understand the unique needs of Mississippi vehicles while being familiar with the demands of daily commutes into Tennessee. Our shop offers comprehensive maintenance and repair services to keep Southaven vehicles running reliably.\n\nWhether you need an oil change, tire rotation, or more extensive repairs, our team provides transparent service with clear explanations. We're proud to serve Southaven residents with the same quality and integrity that has made us successful in Memphis.",
+        "localContext": "Southaven is Mississippi's third-largest city and a major suburb of Memphis.",
+        "nearbyAreas": [
+          "Olive Branch",
+          "Horn Lake",
+          "Memphis"
+        ]
+      },
+      {
+        "city": "Hernando",
+        "slug": "hernando-ms",
+        "state": "MS",
+        "content": "Onyx Auto Repair provides dependable auto service to Hernando residents in DeSoto County. As the county seat, Hernando sees plenty of daily traffic, and we're here to keep local vehicles in top condition. Our technicians are skilled in everything from basic maintenance to complex engine repairs.\n\nWe understand Hernando drivers value both quality service and small-town hospitality. That's why we take the time to get to know our customers and their vehicles, offering personalized recommendations to extend vehicle life and improve performance on Hernando's roads.",
+        "localContext": "Hernando maintains historic charm as DeSoto County's oldest city while experiencing modern growth.",
+        "nearbyAreas": [
+          "Olive Branch",
+          "Southaven",
+          "Horn Lake"
+        ]
+      },
+      {
+        "city": "Atoka",
+        "slug": "atoka-tn",
+        "state": "TN",
+        "content": "Onyx Auto Repair serves Atoka with professional auto care for this growing Tipton County community. We help local residents maintain their vehicles for daily commutes to Memphis and throughout the region. Our shop offers a full range of services from preventative maintenance to major repairs.\n\nAtoka's mix of rural and suburban characteristics means we service everything from pickup trucks to luxury sedans. We take pride in offering honest assessments and quality workmanship to keep Atoka drivers safely on the road.",
+        "localContext": "Atoka offers a peaceful residential environment with convenient access to Memphis amenities.",
+        "nearbyAreas": [
+          "Brighton",
+          "Millington",
+          "Arlington"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brake-repair": "/images/service-brake-repair.webp",
+      "engine-diagnostics": "/images/service-engine-diagnostics.webp",
+      "ac-repair": "/images/service-ac-repair.webp",
+      "transmission-service": "/images/service-transmission-service.webp",
+      "suspension-repair": "/images/service-suspension-repair.webp"
+    },
+    "servicesResponsive": {
+      "brake-repair": {
+        "src": "/images/service-brake-repair.webp",
+        "srcset": "/images/service-brake-repair-400w.webp 400w, /images/service-brake-repair-800w.webp 800w, /images/service-brake-repair-1200w.webp 1200w, /images/service-brake-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "engine-diagnostics": {
+        "src": "/images/service-engine-diagnostics.webp",
+        "srcset": "/images/service-engine-diagnostics-400w.webp 400w, /images/service-engine-diagnostics-800w.webp 800w, /images/service-engine-diagnostics-1200w.webp 1200w, /images/service-engine-diagnostics.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ac-repair": {
+        "src": "/images/service-ac-repair.webp",
+        "srcset": "/images/service-ac-repair-400w.webp 400w, /images/service-ac-repair-800w.webp 800w, /images/service-ac-repair-1200w.webp 1200w, /images/service-ac-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "transmission-service": {
+        "src": "/images/service-transmission-service.webp",
+        "srcset": "/images/service-transmission-service-400w.webp 400w, /images/service-transmission-service-800w.webp 800w, /images/service-transmission-service-1200w.webp 1200w, /images/service-transmission-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "suspension-repair": {
+        "src": "/images/service-suspension-repair.webp",
+        "srcset": "/images/service-suspension-repair-400w.webp 400w, /images/service-suspension-repair-800w.webp 800w, /images/service-suspension-repair-1200w.webp 1200w, /images/service-suspension-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
